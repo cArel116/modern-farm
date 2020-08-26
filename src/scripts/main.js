@@ -16,6 +16,10 @@ console.log(yearlyPlan);
 
 
 addPlant(seedObj);
+const yield = usePlants();
+
 usePlants();
+console.log(yield);
+
 
 console.log(addPlant);
