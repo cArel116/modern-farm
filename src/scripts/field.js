@@ -5,5 +5,5 @@ export const addPlant = (seedObj) => {
 }
 
 export const usePlants = () => {
-    return plantsGrowingArray;
+    return plantsGrowingArray.slice();
 }
