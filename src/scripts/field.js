@@ -1,9 +1,9 @@
-const plantsGrowing = [];
+const plantsGrowingArray = [];
 
 export const addPlant = (seedObj) => {
-    plantsGrowing.slice(seedObj);
+    plantsGrowingArray.push(seedObj);
 }
 
-export const usePlant = () => {
-    return plantsGrowing;
+export const usePlants = () => {
+    return plantsGrowingArray.slice();
 }
